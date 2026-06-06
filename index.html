@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wedding website for Diego and Cris" />
+  <title>Diego & Cris Wedding</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <div class="brand">Diego & Cris</div>
+      <div class="lang-switch" aria-label="Language switcher">
+        <button id="ptBtn" type="button">PT</button>
+        <button id="esBtn" type="button">ES</button>
+        <button id="enBtn" type="button">EN</button>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow" data-i18n="eyebrow"></p>
+      <h1>Diego & Cris</h1>
+      <p class="subtitle" data-i18n="subtitle"></p>
+      <p class="date" data-i18n="date"></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section card">
+      <h2 data-i18n="storyTitle"></h2>
+      <p data-i18n="storyText"></p>
+    </section>
+
+    <section class="section grid">
+      <article class="card">
+        <h2 data-i18n="detailsTitle"></h2>
+        <p data-i18n="venue"></p>
+        <p data-i18n="dressCode"></p>
+      </article>
+
+      <article class="card">
+        <h2 data-i18n="rsvpTitle"></h2>
+        <p data-i18n="rsvpText"></p>
+        <a class="button" href="mailto:hello@example.com?subject=RSVP Diego and Cris" data-i18n="rsvpButton"></a>
+      </article>
+    </section>
+
+    <section class="section card center">
+      <h2 data-i18n="messageTitle"></h2>
+      <p data-i18n="messageText"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Diego & Cris · <span data-i18n="footer"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
